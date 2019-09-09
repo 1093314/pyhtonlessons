@@ -5,7 +5,7 @@ def main():
 
     while (resp<>'N'):
         for opcion in lista:
-            print '> '+opcion
+            print ('> '+opcion)
         seleccion = int(input("Cual opcion desea?"))
 
         if (seleccion == 1):
